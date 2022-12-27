@@ -12,7 +12,7 @@ from config_db import host, password, user, db_name
 
 db_post = Database(host, password, user, db_name)
 
-bot = Bot(token='5638546081:AAFE8IS-Ssv-fIrb4pdf8UXOqMgngz5trXo')
+bot = Bot(token='TOKEN')
 dp = Dispatcher(bot)
 
 inkb = InlineKeyboardMarkup(row_width=1)
